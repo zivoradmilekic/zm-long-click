@@ -1,7 +1,7 @@
 zm-long-click
 =============
 
-//AngularJS directive. This directive allows you to call method after pressing element for 1sec! 
+AngularJS directive. This directive allows you to call method after pressing element for 1sec! 
 
 Usage
 ----------
@@ -17,5 +17,5 @@ var app = angular.module('yourAppName', ['zm-long-click']);
 
 Add zm-long-click attribute on your element!
 ```html
-<button zm-long-click="method()">Call method after long click</button>
+<button zm-long-click="methodYouLoveToCall()">Call method after long click</button>
 ```
