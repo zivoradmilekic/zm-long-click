@@ -17,5 +17,5 @@ var app = angular.module('yourAppName', ['zm-long-click']);
 
 Add zm-long-click attribute on your element!
 ```html
-<button zm-long-click="methodYouLoveToCall()">Call method after long click</button>
+<button zm-long-click="methodYouWantToCall()">Call method after long click</button>
 ```
