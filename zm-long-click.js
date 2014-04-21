@@ -1,6 +1,6 @@
 var app;
 app = angular.module('zm-long-click', []),
-app.directive('zmLongClick', ['$parse', function($parse) {
+app.directive('zmLongClick', function() {
 	return {
 		restrict: 'A',
 		replace: true,
@@ -18,4 +18,4 @@ app.directive('zmLongClick', ['$parse', function($parse) {
 			});
 		}
 	};
-}]);
+});
